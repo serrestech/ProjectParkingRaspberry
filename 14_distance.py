@@ -158,7 +158,7 @@ try:
 			else :
 				doQuery1(db,2,"free")
 				db.commit()
-				changestate2("free")
+				changestate1("free")
 				print 'The parking slot1  is free'
 				print '%0.2f cm' %distance1
 		time.sleep(1)
